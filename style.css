@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after{
+    border-spacing: border-box;
+}
+
+html{
+    font-size: 1.5;
+    font-family: sans-serif;
+}
+
+header h1 a{
+    text-decoration: none;
+    text-shadow: 3px 1px 3px rgb(173, 8, 8);
+    font-size: 55px;
+}
+
+header{
+    margin-bottom: 3rem;
+}
+
+.logo{
+    background-image: url("assets/images/z4_wallpaper-wallpaper-10590737.jpg");
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+    padding-bottom: 9rem;
+}
+
+.logo table{
+    float: center;
+    justify-content: space-between;
+}
+
+.logo h2{
+    padding-left: 2rem;
+}
+
+.s1{
+    color: aqua;
+    float: right;
+    padding-top: 5rem;
+    font-size: 34px;
+}
+
+.frame{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+.end{
+    background-color: darkslategray;
+    color: aqua;
+}
+
